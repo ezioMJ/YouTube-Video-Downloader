@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the header content horizontally */
+}
+
+.header svg {
+    margin-right: 10px; /* Adjust the spacing as needed */
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.form{
+    margin-top: 2.5%;
+}
+
+.btn-dark{
+    padding: 0.75rem 1.5rem;
+}
+
+input[type="text"] {
+    width: 100%; /* Make the input box take the full width of its container */
+    max-width: 500px; /* Set a maximum width for the input box */
+    padding: 0.5rem; /* Add some padding to the input box */
+    font-size: 1rem; /* Increase the font size of the input box */
+    margin-bottom: 1rem; /* Add some space below the input box */
+}
